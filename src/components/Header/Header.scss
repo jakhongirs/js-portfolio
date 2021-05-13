@@ -1,5 +1,27 @@
 /* Site Header */
+.site-header {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .site-header__container {
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+
+/* Logo */
+.logo {
+	display: block;
+}
+
+.logo__img {
+	display: block;
+	transition: opacity 0.3s ease;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:active {
+		opacity: 0.6;
+	}
 }
