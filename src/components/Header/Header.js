@@ -5,8 +5,15 @@ import Container from '../Container/Container'
 
 /* Svg icons */
 import LogoImg from '../Lib/Svg/Logo'
+import Menu from '../Lib/Svg/Menu'
 
 function Header() {
+	let elButton = document.querySelector('.sitenav')
+
+	function clickButton() {
+		elButton.classList.toggle('sitenav--open')
+	}
+
 	return (
 		<header className='site-header'>
 			<Container>
@@ -14,6 +21,32 @@ function Header() {
 					<Link className='logo' to='/'>
 						<LogoImg className='logo__img' />
 					</Link>
+
+					<nav className='sitenav'>
+						<button className='sitenav__button' onClick={clickButton}>
+							<Menu className='sitenav__button-img' />
+						</button>
+
+						<ul className='sitenav__list'>
+							<li className='sitenav__item'>
+								<NavLink className='sitenav__link' to='/about'>
+									About
+								</NavLink>
+							</li>
+
+							<li className='sitenav__item'>
+								<NavLink className='sitenav__link' to='/about'>
+									Blog
+								</NavLink>
+							</li>
+
+							<li className='sitenav__item'>
+								<NavLink className='sitenav__link' to='/about'>
+									Projects
+								</NavLink>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</Container>
 		</header>
