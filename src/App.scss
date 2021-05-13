@@ -1,3 +1,94 @@
+/* Fonts: */
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-Light.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-Italic.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-Bold.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-LightItalic.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Space Mono';
+	src: url('./assets/fonts/SpaceMono-Bold.woff2') format('woff2'),
+		url('./assets/fonts/SpaceMono-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-SemiBoldItalic.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-SemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('./assets/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+		url('./assets/fonts/SourceSansPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Space Mono';
+	src: url('./assets/fonts/SpaceMono-Regular.woff2') format('woff2'),
+		url('./assets/fonts/SpaceMono-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Space Mono';
+	src: url('./assets/fonts/SpaceMono-Italic.woff2') format('woff2'),
+		url('./assets/fonts/SpaceMono-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
 /* Normalize Css: */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -334,7 +425,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 }

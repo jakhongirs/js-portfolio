@@ -5,7 +5,9 @@ import Container from '../Container/Container'
 function Header() {
 	return (
 		<header className='site-header'>
-			<Container></Container>
+			<Container>
+				<div className='site-header__container'></div>
+			</Container>
 		</header>
 	)
 }
