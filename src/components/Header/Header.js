@@ -35,13 +35,13 @@ function Header() {
 							</li>
 
 							<li className='sitenav__item'>
-								<NavLink className='sitenav__link' to='/about'>
+								<NavLink className='sitenav__link' to='/blog'>
 									Blog
 								</NavLink>
 							</li>
 
 							<li className='sitenav__item'>
-								<NavLink className='sitenav__link' to='/about'>
+								<NavLink className='sitenav__link' to='/projects'>
 									Projects
 								</NavLink>
 							</li>

@@ -5,7 +5,11 @@ import Container from '../Container/Container'
 function Footer() {
 	return (
 		<footer className='site-footer'>
-			<Container></Container>
+			<Container>
+				<div className='site-footer__wrapper'>
+					<p className='site-footer__copyright'>2021 © jakhongir.codes</p>
+				</div>
+			</Container>
 		</footer>
 	)
 }

@@ -1,0 +1,20 @@
+/* Site Footer */
+.site-footer {
+	/* 	position: absolute;
+	bottom: 0;
+	width: 100%; */
+	flex-shrink: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.site-footer__wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.site-footer__copyright {
+	text-align: center;
+	margin: 0;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.6);
+}
