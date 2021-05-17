@@ -4,6 +4,7 @@ import Container from '../Container/Container'
 
 //Images and icons:
 import heroImg from '../../assets/images/hero-img.png'
+import heroImg2x from '../../assets/images/hero-img@2x.png'
 import Github from '../Lib/Svg/Github'
 import Twitter from '../Lib/Svg/Twitter'
 import Linkedin from '../Lib/Svg/Linkedin'
@@ -13,7 +14,12 @@ function Hero() {
 		<section className='hero'>
 			<Container>
 				<div className='hero__wrapper'>
-					<img className='hero__img' src={heroImg} alt='Jakhongir Sagdullaev' />
+					<img
+						className='hero__img'
+						src={heroImg}
+						alt='Jakhongir Sagdullaev'
+						srcSet={heroImg2x}
+					/>
 
 					<div className='hero__texts-wrapper'>
 						<h1 className='hero__heading'>Jakhongir Sagdullaev</h1>
