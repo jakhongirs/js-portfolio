@@ -8,11 +8,7 @@ import LogoImg from '../Lib/Svg/Logo'
 import Menu from '../Lib/Svg/Menu'
 
 function Header() {
-	let elButton = document.querySelector('.sitenav')
-
-	function clickButton() {
-		elButton.classList.toggle('sitenav--open')
-	}
+	const elsitenav = React.useRef()
 
 	return (
 		<header className='site-header'>
@@ -22,8 +18,12 @@ function Header() {
 						<LogoImg className='logo__img' />
 					</Link>
 
-					<nav className='sitenav'>
-						<button className='sitenav__button' onClick={clickButton}>
+					<nav className='sitenav' ref={elsitenav}>
+						<button
+							className='sitenav__button'
+							onClick={() =>
+								elsitenav.current.classList.toggle('sitenav--open')
+							}>
 							<Menu className='sitenav__button-img' />
 						</button>
 
