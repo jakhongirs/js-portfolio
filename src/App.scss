@@ -438,13 +438,13 @@ img {
 }
 
 main {
-	min-height: calc(100vh - 78px);
-	padding-top: 78px;
+	min-height: calc(100vh - 79px);
+	padding-top: 79px;
 }
 
 @media only screen and (max-width: 520px) {
 	main {
-		min-height: calc(100vh - 59px);
-		padding-top: 59px;
+		min-height: calc(100vh - 60px);
+		padding-top: 60px;
 	}
 }
