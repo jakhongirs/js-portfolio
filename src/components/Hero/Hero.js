@@ -19,6 +19,8 @@ function Hero() {
 						src={heroImg}
 						alt='Jakhongir Sagdullaev'
 						srcSet={heroImg2x}
+						width='220px'
+						height='220px'
 					/>
 
 					<div className='hero__texts-wrapper'>
@@ -41,7 +43,10 @@ function Hero() {
 
 						<ul className='hero__social-list'>
 							<li className='hero__social-item'>
-								<a className='hero__social-link' href='' target='blank'>
+								<a
+									className='hero__social-link'
+									href='https://www.linkedin.com/in/jakhongir-sagdullaev'
+									target='_blank'>
 									<Linkedin className='hero__social-img' />
 								</a>
 							</li>
@@ -50,13 +55,16 @@ function Hero() {
 								<a
 									className='hero__social-link'
 									href='https://github.com/jakhongirs'
-									target='blank'>
+									target='_blank'>
 									<Github className='hero__social-img' />
 								</a>
 							</li>
 
 							<li className='hero__social-item'>
-								<a className='hero__social-link' href='' target='blank'>
+								<a
+									className='hero__social-link'
+									href='https://twitter.com/jakhongir_codes'
+									target='_blank'>
 									<Twitter className='hero__social-img' />
 								</a>
 							</li>

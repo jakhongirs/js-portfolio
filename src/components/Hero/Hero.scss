@@ -60,6 +60,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	margin: -5px;
 	margin-bottom: 12px;
 }
 
@@ -69,10 +70,7 @@
 	border-radius: 1px;
 	font-size: 14px;
 	line-height: 15px;
-}
-
-.hero__skills-item + .hero__skills-item {
-	margin-left: 8px;
+	margin: 5px;
 }
 
 /* Hero Social Medias */
@@ -106,4 +104,34 @@
 	min-width: 22px;
 	min-height: 22px;
 	object-fit: cover;
+}
+
+@media only screen and (max-width: 761px) {
+	.hero__wrapper {
+		flex-wrap: wrap;
+		padding-top: 80px;
+		padding-bottom: 0px;
+	}
+
+	.hero__img {
+		max-width: 220px;
+		max-height: 220px;
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.hero__img {
+		max-width: 110px;
+		max-height: 110px;
+		margin-right: 0px;
+	}
+
+	.hero__heading {
+		font-size: 25px;
+	}
+
+	.hero__skills-list {
+		flex-wrap: wrap;
+	}
 }
