@@ -1,11 +1,10 @@
 import React from 'react'
-/* import Hero from '../../components/Hero/Hero' */
+import AboutHero from '../../components/AboutHero/AboutHero'
 
 function About() {
 	return (
 		<>
-			{/* <Hero /> */}
-			About
+			<AboutHero />
 		</>
 	)
 }
