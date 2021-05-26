@@ -1,0 +1,26 @@
+[
+  {
+    "id": "3",
+    "title": "Savollarni to'g'ri berish",
+    "desc": "If you are a self-taught developer like me, then chances are you learned everything about being a developer online — whether it was through Bootcamp, Google, Stack Overflow, Udemy, or any other online platform that offers cheap or even free courses and resources.\r\nHowever, you can never become as good a developer as you want to be if you don’t understand the concepts, fundamentals, and ways of thinking that are taught only in an academic setting.",
+    "quote": "Sometimes, we are our enemy",
+    "date": "Mar 28, 2021"
+  },
+
+  {
+    "id": "2",
+    "title": "Dasturchilarning dushmanlari",
+    "desc": "If you are a self-taught developer like me, then chances are you learned everything about being a developer online — whether it was through Bootcamp, Google, Stack Overflow, Udemy, or any other online platform that offers cheap or even free courses and resources.\r\nHowever, you can never become as good a developer as you want to be if you don’t understand the concepts, fundamentals, and ways of thinking that are taught only in an academic setting.",
+    "quote": "Sometimes, we are our enemy",
+    "date": "Jul 24, 2020"
+  },
+  
+  {
+      "id": "1",
+      "title": "Dasturlashdagi birinchi xatolarim",
+      "desc": "If you are a self-taught developer like me, then chances are you learned everything about being a developer online — whether it was through Bootcamp, Google, Stack Overflow, Udemy, or any other online platform that offers cheap or even free courses and resources.\r\nHowever, you can never become as good a developer as you want to be if you don’t understand the concepts, fundamentals, and ways of thinking that are taught only in an academic setting.",
+      "quote": "Stop thinking and start doing.",
+      "date": "Jul 17, 2020"
+  }
+
+]
